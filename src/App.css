@@ -26,7 +26,9 @@
   color: white;
   border-radius: 12px;
 }
-
+form{
+  margin: 5% auto;
+}
 .social-icon a i{
   font-size: 28px;
   padding: 8px;

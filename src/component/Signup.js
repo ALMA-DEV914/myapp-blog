@@ -86,7 +86,6 @@ const Signup = () => {
               <button className="btn w-100 bg-success text-white mt-2" type="submit">
                 Submit
               </button>
-              <br></br><br></br><br></br>
               <Link to="/login">
             <button className="btn bg-secondary text-white w-100">LOGIN</button>
           </Link>

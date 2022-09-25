@@ -70,7 +70,7 @@ const Login = (props) => {
                 Submit
               </button>
               <Link to="/signup">
-                <button className='btn  w-100 mt-4 bg-secondary text-white'>Singup</button>
+                <button className='btn  w-100 mt-2 bg-secondary text-white'>Singup</button>
               </Link>
             </form>
           </div>
