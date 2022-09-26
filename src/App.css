@@ -1,4 +1,7 @@
-
+main{
+  height: 100vh;
+  
+}
 .navbar-nav a{
   font-size: 18px;
 }
@@ -62,7 +65,7 @@ form{
  }
  form input:focus, .contact form textarea:focus {
    color: #121212;
-   background-color: #fff;
+   background-color: rgb(146, 207, 198);
    outline: none;
  }
   form input::placeholder, .contact form textarea::placeholder {

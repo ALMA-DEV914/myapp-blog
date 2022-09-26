@@ -52,7 +52,7 @@ const Signup = () => {
             <form onSubmit={handleFormSubmit} className="form col-6">
             {error && <div className='bg-danger text-white p-2 opacity-75 text-center'>Signup failed</div>}
               <h2 className='text-secondary mb-2 text-center'>Signup</h2>
-            <label htmlFor="name">Username</label>
+            
               <input
                 className="form-input"
                 placeholder="Your username"
@@ -62,7 +62,7 @@ const Signup = () => {
                 value={formState.username}
                 onChange={handleChange}
               />
-                <label htmlFor="email">Email</label>
+      
               <input
                 className="form-input"
                 placeholder="Your email"
@@ -72,7 +72,6 @@ const Signup = () => {
                 value={formState.email}
                 onChange={handleChange}
               />
-                <label htmlFor="password">Password</label>
               <input
                 className="form-input"
                 placeholder="******"
@@ -83,11 +82,11 @@ const Signup = () => {
                 onChange={handleChange}
               />
               <br></br>
-              <button className="btn w-100 bg-success text-white mt-2" type="submit">
+              <button className="btn w-100 bg-success text-white p-3 mt-2" type="submit">
                 Submit
               </button>
               <Link to="/login">
-            <button className="btn bg-secondary text-white w-100">LOGIN</button>
+            <button className="btn bg-secondary p-3 text-white w-100">LOGIN</button>
           </Link>
             </form>
             </div>

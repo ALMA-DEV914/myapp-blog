@@ -3,6 +3,7 @@ import { Container, Row, Col, Alert } from "react-bootstrap";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import MailchimpForm from "./MailchimpForm";
+import contact from "../assets/contact.png"
 
 const Contact = ({ status, message, onValidated }) => {
   const [email, setEmail] = useState("");
@@ -46,6 +47,11 @@ const Contact = ({ status, message, onValidated }) => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={4}>
+          <h2>Get In Touch</h2>
+                  <p>
+                   Stay updated! Don't get behind! Subscribe to be notified for a new incoming hot sales! 
+                  </p>
+            <img src={contact} alt="contact-meme"/>
           </Col>
           <Col size={12} md={7}>
             <TrackVisibility>
@@ -55,14 +61,6 @@ const Contact = ({ status, message, onValidated }) => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Get In Touch</h2>
-                  <p>
-                    I am interested in freelance or full time opportunities -
-                    especially ambitious or large projects. However, if you have
-                    other request or question, don't hesitate to contact me
-                    using below form either.
-                  </p>
-                  <br></br>
                   <Col lg={12} md={6} xl={5}>
                     {status === "sending" && <Alert>Sending...</Alert>}
                     {status === "error" && (
