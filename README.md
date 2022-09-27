@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+## Deployed application 
+[The live site](http://almasproductions.com/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
