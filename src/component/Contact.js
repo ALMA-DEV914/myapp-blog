@@ -43,7 +43,7 @@ const Contact = ({ status, message, onValidated }) => {
   };
 
   return (
-    <section className="contact" id="connect">
+    <section className="contact">
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={4}>

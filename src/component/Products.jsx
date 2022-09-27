@@ -14,6 +14,7 @@ import image11 from "../assets/side-img1.png";
 import image12 from "../assets/exipure.png";
 import image13 from "../assets/employeeChildMonitoring.png";
 import image14 from "../assets/before-and-after.png";
+import image15 from "../assets/homebook.jpg"
 
 function Products() {
   const [filter, setFilter] = useState([]);
@@ -150,14 +151,27 @@ function Products() {
 },
 {
   id: "14",
-  category: "hygienes",
+  category: "hygienes&safety",
   title: "Whiten Your Teeth Professionally Save 60% Real White Teeth Whitener",
   description: "We’ve Stumbled On A Natural Fix That Will Transform The Way People Whiten Their Teeth. Did you know the color of your teeth has a direct effect on your personal (and professional) relationships more than any other part of your appearance?",
   image: image14,
   rating: 3.7,
   link: "https://bit.ly/3RYN4sr"
 
-}
+},
+{
+id: "15",
+category: "hygienes&safety",
+title: "The Home Doctor - Practical Medicine for Every Household",
+description: "he Home Doctor - Practical Medicine for Every Household - is a 304 page doctor written and approved guide on how to manage most health situations when help is not on the way.",
+image: image15,
+rating: 3.7,
+link: "https://bit.ly/3R9Khfq"
+
+},
+
+
+
 
 ]
 const Loading =()=> {
@@ -187,9 +201,9 @@ const Loading =()=> {
           </button>
           <button
             className="btn btn-outline-dark me-2"
-            onClick={() => filterProducts("hygienes")}
+            onClick={() => filterProducts("hygienes&safety")}
           >
-            Hygienes Routines
+            Hygienes&safety
           </button>
           <button
             className="btn btn-outline-dark me-2"
@@ -256,7 +270,7 @@ const Loading =()=> {
 
   return (
     <div>
-      <div className="container my-5 py-5" id="container">
+      <div className="container my-5 py-5">
         <div className="row">
           <div className="col-12 mb-5">
             <h1 className="display-6 fw-bolder text-center">

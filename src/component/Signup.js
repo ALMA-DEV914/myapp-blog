@@ -46,7 +46,7 @@ const Signup = () => {
   return (
     <>
     <main className="d-flex justify-center mb-4">
-      <div className="col-12 col-md-6 mx-auto">
+      <div className="col-12 col-md-7 mx-auto">
 
           <div className="card-body">
             <form onSubmit={handleFormSubmit} className="form col-6">

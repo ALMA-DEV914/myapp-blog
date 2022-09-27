@@ -1,9 +1,36 @@
-main{
-  height: 100vh;
-  
+.navbar-collapse{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-list{
+  margin:0 auto;
+}
+.container{
+  display: flex;
+}
+.lead-text{
+  font-size: 25px;
+  font-style: italic;
+  color: grey;
 }
 .navbar-nav a{
   font-size: 18px;
+}
+.disclaimer{
+  font-size: 12px;
+  background-color: rgb(129, 37, 37);
+  padding: 12px;
+  color: #fff;
+}
+.col{
+  margin: 5px;
+  padding: 15px;
+  border-radius: 12px;
+}
+.col a{
+  text-decoration: none;
+  font-size: 22px;
+  color: #20ac97;
 }
 .btnActive i{
   background: white;
@@ -18,10 +45,7 @@ main{
   color: white;
   transform: rotate(180deg);
 }
-.link-url{
-  text-decoration: none;
-  
-}
+
 
 .card-img-overlay .container{
   background-color: rgb(9, 54, 31);
@@ -38,9 +62,8 @@ form{
 }
 
 .contact {
-   padding: 60px 0 100px 0;
-   background-color: aliceblue;
- }
+   padding: 20px;
+  }
  .contact img {
    width: 90%;
  }
@@ -52,7 +75,7 @@ form{
  
  form input, .contact form textarea {
    width: 100%;
-   background: #93b6bf;
+   background: #999b9c;
    border: 1px solid rgba(255, 255, 255, 0.5);
    border-radius: 20px;
    color: #fff;
@@ -65,8 +88,8 @@ form{
  }
  form input:focus, .contact form textarea:focus {
    color: #121212;
-   background-color: rgb(146, 207, 198);
-   outline: none;
+   background-color: #fff;
+   outline: 1px solid #000;
  }
   form input::placeholder, .contact form textarea::placeholder {
    font-size: 16px;
@@ -86,7 +109,7 @@ form{
    border-radius: 0;
    position: relative;
    transition: 0.3s ease-in-out;
-   background-color: #93b6bf;
+   background-color: #999b9c;
    color: #fff !important;
  }
  form button:hover {
@@ -110,3 +133,22 @@ form{
  .contact p{
    line-height: 1.5em;
  }
+ 
+ @media screen and (max-width:575px) {
+   .navbar-collapse{
+    display: block;
+    padding: 15px;
+   }
+ }
+ @media screen and (max-width:414px) {
+  .navbar-collapse{
+   display: block;
+   padding: 15px;
+  }
+}
+@media screen and (max-width:390px) {
+  .navbar-collapse{
+   display: block;
+   padding: 15px;
+  }
+}
