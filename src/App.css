@@ -1,3 +1,7 @@
+#products-btn{
+  display: flex;
+  justify-content: center;
+}
 .navbar-collapse{
   display: flex;
   justify-content: space-between;
@@ -32,6 +36,7 @@
   font-size: 22px;
   color: #20ac97;
 }
+
 .btnActive i{
   background: white;
   color: rgb(17, 118, 169);
@@ -139,16 +144,67 @@ form{
     display: block;
     padding: 15px;
    }
+   #products{
+    display: block;
+    width: 100%;
+  }
+  #products-btn {
+    width: 100%;
+    display: block;
+  
+  }
+  #products-btn .me-2{
+    margin: 5px auto;
+  }
+
+  #product-list{
+    width: 100%;
+    display: block;
+  }
  }
  @media screen and (max-width:414px) {
   .navbar-collapse{
    display: block;
    padding: 15px;
   }
+  #products{
+    display: block;
+    width: 100%;
+  }
+  #products-btn {
+    width: 100%;
+    display: block;
+  
+  }
+  #products-btn .me-2{
+    margin: 5px auto;
+  }
+
+  #product-list{
+    width: 100%;
+    display: block;
+  }
 }
 @media screen and (max-width:390px) {
   .navbar-collapse{
    display: block;
    padding: 15px;
+  }
+  #products{
+    display: block;
+    width: 100%;
+  }
+  #products-btn {
+    width: 100%;
+    display: block;
+  
+  }
+  #products-btn .me-2{
+    margin: 5px auto;
+  }
+
+  #product-list{
+    width: 100%;
+    display: block;
   }
 }

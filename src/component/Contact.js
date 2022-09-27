@@ -46,11 +46,12 @@ const Contact = ({ status, message, onValidated }) => {
     <section className="contact">
       <Container>
         <Row className="align-items-center">
-          <Col size={12} md={4}>
+          <Col size={12} md={5}>
           <h2>Get In Touch</h2>
                   <p>
                    Stay updated! Don't get behind! Subscribe to be notified for a new incoming hot sales! 
                   </p>
+            
             <img src={contact} alt="contact-meme"/>
           </Col>
           <Col size={12} md={7}>

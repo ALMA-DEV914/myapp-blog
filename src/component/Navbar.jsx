@@ -15,7 +15,7 @@ function Navbar() {
             REMITLY
           </a>
         </strong>{" "}
-        Send money online for what matters most We make international money
+        Send money online for what matters most. We make international money
         transfers easier than ever. Choose how and when you send, with great
         exchange rates and low fees.
       </div>

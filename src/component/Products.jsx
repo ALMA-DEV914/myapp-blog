@@ -186,7 +186,7 @@ const Loading =()=> {
   const ShowProducts = () => {
     return (
       <>
-        <div className="buttons d-flex justify-content-center mb-5 pb-5">
+        <div className="buttons mb-5 pb-5" id="products-btn">
           <button
             className="btn btn-outline-dark me-2"
             onClick={() => setFilter(products)}
@@ -270,7 +270,7 @@ const Loading =()=> {
 
   return (
     <div>
-      <div className="container my-5 py-5">
+      <div className="container my-5 py-5" id="products">
         <div className="row">
           <div className="col-12 mb-5">
             <h1 className="display-6 fw-bolder text-center">
@@ -279,7 +279,7 @@ const Loading =()=> {
             </h1>
             <hr />
           </div>
-          <div className="row justify-content-center">
+          <div className="row justify-content-center" id="product-list">
             {loading ? <Loading /> : <ShowProducts />}
           </div>
         </div>

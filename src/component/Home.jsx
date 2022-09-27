@@ -60,15 +60,13 @@ function Home() {
               We need more Paid Writers From United States{" "}
             </a><br></br><br></br>
             <p>
-              You have experience writing professionally and enjoy writing in your spare time and am passionate about it.
-             You are a keen learner
+              You have experience writing professionally and enjoy writing in your spare time and passionate about it.
+             You are a keen learner.
             </p>
             <p>
               Familiar with posting on social media Familiar with writing on a
-              laptop, tablet or PC Experience using Microsoft Word or similar
-              word processor Able to write clearly Good grammar, spelling and
-              punctuation Good email communication Able to closely follow
-              instructions Motivated when working remotely/independently
+              laptop, tablet or PC Experience using Microsoft Word or similar word processor. Able to write clearly Good grammar, spelling and punctuation. Good email communication and able to closely follow
+              instructions. Motivated when working remotely/independently.
             </p>
           </div>
           <div className="col text-center bg-secondary text-white">
