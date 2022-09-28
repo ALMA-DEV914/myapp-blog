@@ -12,7 +12,7 @@ import {
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 import Contact from "./component/Contact";
-import Footer from "./component/Footer";
+
 import Login from "./component/Login";
 import Signup from "./component/Signup";
 
@@ -47,7 +47,7 @@ function App() {
         <Route exact path="/signup" element={<Signup/>} />
         <Route exact path="/contact" element={<Contact/>} />
       </Routes>
-      <Footer/>
+     
     </div>
     </ApolloProvider>
     </>

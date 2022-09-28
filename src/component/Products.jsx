@@ -186,6 +186,7 @@ const Loading =()=> {
   const ShowProducts = () => {
     return (
       <>
+      
         <div className="buttons mb-5 pb-5" id="products-btn">
           <button
             className="btn btn-outline-dark me-2"
@@ -280,7 +281,7 @@ const Loading =()=> {
             <hr />
           </div>
           <div className="row justify-content-center" id="product-list">
-            {loading ? <Loading /> : <ShowProducts />}
+            {loading ? <Loading/> : <ShowProducts />}
           </div>
         </div>
       </div>

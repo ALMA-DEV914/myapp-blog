@@ -4,16 +4,17 @@ import food from "../assets/food.png";
 import writingJob from "../assets/PaidOnlineWritingJobsl-e1594729647803.png";
 import mentor from "../assets/abt-img.png";
 import creative from "../assets/74-Creative-Drawing-Tutorial-For-Children-01.png";
+import Footer from "../component/Footer";
 
 function Home() {
   return (
     <>
       <div className="container mt-4 pb-4 mb-4">
         <div className="row">
-          <h5 className="card-title display-3 fw-bolder mb-4 py-2">
+          <h5 className="card-title display-3 fw-bolder mb-4 py-2 mt-4">
             Dare to be great, exercise and stay fit
           </h5>
-          <p className="lead-text">
+          <p className="lead-text mt-2 pb-2">
             {" "}
             Conscious, healthy living can be difficult to implement, much less
             maintain. If you are one of those, like us, who tries their darndest
@@ -22,11 +23,9 @@ function Home() {
             inspiration to stay the course with the positive habits you have put
             into place! “Create healthy habits, not restrictions.”
           </p>
-          <div className="col-sm-4">
-            <div className="fakeimg">
-              <img src={food} alt="food" width="100%"></img>
-            </div>
-            <p>
+          <div className="col-sm-4 mt-4">
+            <img src={food} alt="food" width="100%"></img>
+             <p>
               If you are trying to improve your diet, health experts recommend
               you try to monitor how much you eat each day, eat a wide variety
               of foods, base your diet on cereals and whole grains, and increase
@@ -41,35 +40,40 @@ function Home() {
               up and keep trying.
             </p>
           </div>
-          <div className="col-sm-8">
-            <div className="fakeimg">
-              <img src={bg} className="card-img" alt="background" />
-            </div>
-          </div>
+          <div className="col-sm-8 mt-4" id="img">
+            <img src={bg} className="card-img" alt="background" />
+           </div>
         </div>
       </div>
       <div className="container mb-4 justify-content-center mt-4">
-        <h1>Things You Might be Interested</h1>
+        <h1 className="mt-4 mb-4">Things You Might be Interested</h1>
       </div>
       <div className="container mb-4">
         <div className="row">
-          <div className="col bg-dark text-white text-center">
-            <h3>Looking For A REAL Online Job?</h3><br></br>
-            <img src={writingJob} alt="job" width="100%" /><br></br><br></br>
+          <div className="col" id="col">
+            <h3>Looking For A REAL Online Job?</h3>
+            <br></br>
+            <img src={writingJob} alt="job" width="100%" id="paid-online" />
+            <br></br>
+            <br></br>
             <a href="https://bit.ly/3SAyFDj">
               We need more Paid Writers From United States{" "}
-            </a><br></br><br></br>
+            </a>
+            <br></br>
+            <br></br>
             <p>
-              You have experience writing professionally and enjoy writing in your spare time and passionate about it.
-             You are a keen learner.
+              You have experience writing professionally and enjoy writing in
+              your spare time and passionate about it. You are a keen learner.
             </p>
             <p>
               Familiar with posting on social media Familiar with writing on a
-              laptop, tablet or PC Experience using Microsoft Word or similar word processor. Able to write clearly Good grammar, spelling and punctuation. Good email communication and able to closely follow
+              laptop, tablet or PC Experience using Microsoft Word or similar
+              word processor. Able to write clearly Good grammar, spelling and
+              punctuation. Good email communication and able to closely follow
               instructions. Motivated when working remotely/independently.
             </p>
           </div>
-          <div className="col text-center bg-secondary text-white">
+          <div className="col" id="col">
             <h3>Home New - 1000pip Builder</h3>
             <a href="https://bit.ly/3xTs7Yk">Home New - 1000pip Builder</a>
             <p>
@@ -83,7 +87,7 @@ function Home() {
               signals, independently verified results and much more ...
             </p>
           </div>
-          <div className="col text-center bg-dark text-white ">
+          <div className="col" id="col">
             <h3>74 Creative Drawing Tutorial For Children</h3>
 
             <a href="https://bit.ly/3rb8l76">
@@ -106,6 +110,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
